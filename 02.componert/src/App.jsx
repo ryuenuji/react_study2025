@@ -5,6 +5,9 @@ import './App.css'
 import Menubox from './components/Menubox.jsx'
 import Memberlnfo from './components/Memberlnfo.jsx'
 import Count from './components/Count.jsx'
+import LikeCount from './components/LikeCount.jsx'
+import LikeCount2 from './components/LikeCount2.jsx'
+import BattleNumber from './components/BattleNumber.jsx'
 
 function App() {
 
@@ -49,7 +52,18 @@ function App() {
       </div> */}
       
       {/* state 실습 */}
-      <Count/>
+      {/* <Count/> */}
+
+      {/* state 실습2 */}
+      {/* <LikeCount/> */}
+
+      {/* state 실습3 */}
+      <LikeCount2/>
+
+      {/* stat 실습 4 */}
+      {/* <BattleNumber/> */}
+
+
     </>
   )
 }
